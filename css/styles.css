@@ -1,1 +1,107 @@
-/* CSS Styles */
+/* Styles */
+
+/* Limited reset - See HTML5: Structure, Syntax, and Semantics: https://www.lynda.com/HTML-tutorials/HTML5-Structure-Syntax-Semantics/182177-2.html */
+html, body, div, section, article, aside, header, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #A5B3C6;
+}
+
+/* Navigation Bar CSS - See http://www.w3schools.com/css/css_navbar.asp for example and details */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #004282;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover:not(.active) {
+    background-color: #1d62a2;
+}
+
+nav ul .active {
+    background-color: #3277B7;
+}
+
+/*--------------------------------------------------------*/
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+}
+
+/*--------------------------------------------------------*/
+
+/* Styles for a Responsive Image Gallery from http://www.w3schools.com/css/css3_images.asp */
+
+div img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 20px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main p {
+    margin: 30px 0 0 0;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+main p img {
+    float: right;
+    margin: 0 0 20px 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+/*--------------------------------------------------------*/
+div.responsive:nth-child(even) {
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+}
+
+div.responsive:nth-child(odd) {
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+}
