@@ -14,6 +14,6 @@ No login required.
 
 ## Outside code
 * CSS styles
-**  Limited reset - See HTML5: Structure, Syntax, and Semantics: https://www.lynda.com/HTML-tutorials/HTML5-Structure-Syntax-Semantics/182177-2.html
-** Navigation Bar CSS - See http://www.w3schools.com/css/css_navbar.asp for example and details
-** Styles for a Responsive Image Gallery from http://www.w3schools.com/css/css3_images.asp
+  *  Limited reset - See HTML5: Structure, Syntax, and Semantics: <https://www.lynda.com/HTML-tutorials/HTML5-Structure-Syntax-Semantics/182177-2.html>
+  * Navigation Bar CSS - See <http://www.w3schools.com/css/css_navbar.asp> for example and details
+  * Styles for a Responsive Image Gallery from <http://www.w3schools.com/css/css3_images.asp>
