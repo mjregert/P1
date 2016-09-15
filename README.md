@@ -7,7 +7,7 @@
 A Simple "proof of concept HTML page to house links to the other projects for CSCI E-15 Course."
 
 ## Demo
-<TBD>
+<https://youtu.be/f79hCfXgmro>
 
 ## Details for teaching team
 No login required.
